@@ -99,22 +99,22 @@ footer {
   align-items: center;
 }
 .product .product-price div,
-.product .product-price button {
+button {
   text-align: center;
   flex: 1;
 }
 .product .product-price div {
   font-size: 2rem;
 }
-.product .product-price .button {
+.button {
   padding: 1rem;
   border: 1px solid #c0c0c0;
   background: #f0f0f0;
 }
-.product .product-price .button:hover {
+.button:hover {
   border: 0.1rem solid #808080;
 }
-.product .product-price .button.primary {
+.button.primary {
   background: #f0c040;
 }
 
@@ -127,5 +127,48 @@ footer {
   border-bottom: 0.1rem solid #c0c0c0;
 }
 .filter div {
+  flex: 1;
+}
+
+/* CART */
+.cart {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+}
+.cart-header {
+  border-bottom: 0.1rem solid #c0c0c0;
+}
+.cart-items {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+.cart-items img {
+  width: 5rem;
+}
+.cart-items li {
+  display: flex;
+}
+.cart-items li div {
+  padding: 0.5rem;
+}
+.cart-items li div:last-child {
+  flex: 1;
+}
+.right {
+  text-align: right;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.total > div {
+  font-size: 2rem;
+}
+.total > div,
+.total > button {
   flex: 1;
 }
