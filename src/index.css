@@ -117,3 +117,15 @@ footer {
 .product .product-price .button.primary {
   background: #f0c040;
 }
+
+/* filter */
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem solid #c0c0c0;
+}
+.filter div {
+  flex: 1;
+}
