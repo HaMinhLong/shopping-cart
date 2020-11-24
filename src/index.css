@@ -93,17 +93,17 @@ footer {
   max-width: 37rem;
   max-height: 37rem;
 }
-.product .product-price {
+.product-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.product .product-price div,
+.product-price div,
 button {
   text-align: center;
   flex: 1;
 }
-.product .product-price div {
+.product-price div {
   font-size: 2rem;
 }
 .button {
@@ -116,6 +116,29 @@ button {
 }
 .button.primary {
   background: #f0c040;
+}
+
+/* Product Details */
+.product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+.product-details img {
+  max-height: 100vh;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+.product-details-description {
+  flex: 1 1;
+  margin: 1rem;
+}
+.close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 1000;
 }
 
 /* filter */
